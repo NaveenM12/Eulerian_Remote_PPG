@@ -1,4 +1,4 @@
-This is the final implementation of the moodel. This model uses the haarcascades library to locate and extract the face from the webcam input using a base
+This is the final implementation of the model. This model uses the haarcascades library to locate and extract the face from the webcam input using a base
 ML model.
 
 This program then builds the eulerian and laplace pyramids to enhance the video, from which an ML model can then detect the heart rate. 
