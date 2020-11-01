@@ -5,4 +5,5 @@ This program then builds the eulerian and laplace pyramids to enhance the video,
 
 ** This is a novel implementation of previous repossitories as it allows for a real-time detection. The model will hold a given number of frames, then run
 the enhancement of that snippet of video and perform the BPM calculation on the current X number of frames. These frames are coontinuously updated until the program
-is stopped by the user, thus allowing for a real-time continuous implementation. **
+is stopped by the user, thus allowing for a real-time continuous implementation. This program uses a multi-threaded approach inorder to read in the input frames
+from the webcam, while also performing BPM/enhancement calculations**
