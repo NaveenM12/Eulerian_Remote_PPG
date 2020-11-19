@@ -2,7 +2,7 @@
 
 ## The final implementation of the model is in the RemotePPG_src_final. This model uses the haarcascades library to locate and extract the face from the webcam input using a base ML model and then builds the eulerian and laplace pyramids to enhance the video, from which an ML model can then detect the heart rate. 
 
-## ** This is a novel implementation of previous repossitories as it allows for a real-time detection. The model will hold a given number of frames, then run the enhancement of that snippet of video and perform the BPM calculation on the current X number of frames. These frames are coontinuously updated until the program is stopped by the user, thus allowing for a real-time continuous implementation. This program uses a multi-threaded approach inorder to read in the input frames from the webcam, while also performing BPM/enhancement calculations**
+### ** This is a novel implementation of previous repositories as it allows for a real-time detection. The model will hold a given number of frames, then run the enhancement of that snippet of video and perform the BPM calculation on the current X number of frames. These frames are coontinuously updated until the program is stopped by the user, thus allowing for a real-time continuous implementation. This program uses a multi-threaded approach inorder to read in the input frames from the webcam, while also performing BPM/enhancement calculations**
 
 ### The other folders in this repo contain various PPG implementations of the same MIT paper linked below, from which the RemotePPG_src_final is based upoon.
 
